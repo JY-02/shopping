@@ -21,6 +21,7 @@ const productSlice = createSlice({
     },
     extraReducers: (builder) => {
         builder.addCase(getProduct.fulfilled,(state,action)=>{
+            console.log('페이로드 값은',action.payload)
             state.value=action.payload;
         })
     }

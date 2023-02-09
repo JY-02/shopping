@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 .product-item{
     margin:0 10px 30px;
     flex:0 0 220px;
@@ -7,18 +8,23 @@
   }
   .item-name {
     margin: 5px 0;
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    font-size:28px;
     font-weight:500;
     color:#606060;
   }
   .item-price {
     margin-bottom: 3px;
-    font-size: 15px;
+    text-align: center;
+    font-size: 16px;
     font-weight:400;
     color: rgb(221, 16, 16);
   }
   .add-cart-btn{
     cursor: pointer;
     display: flex;
+    margin:auto;
     align-items: center;
     margin-top: 8px;
     border: none;

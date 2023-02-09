@@ -10,17 +10,15 @@ const counterSlice  = createSlice({
   reducers: {
         increment : (state,action) => {
             state.value += action.payload;
-            //action.type="SET_VALUE_INCREMENT"
         },
         decrement : (state,action) => {
             state.value -= action.payload;
-            //action.type="SET_VALUE_DECREMENT"
         },
     },
 
 })
 
 
-export const { increment , decrement } = counterSlice.actions //액션 생성함수 
+export const { increment , decrement } = counterSlice.actions  
 
 export default counterSlice.reducer

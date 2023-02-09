@@ -8,7 +8,7 @@ const ProductItem = ({item}) => {
     const dispatch=useDispatch();
     const navigate = useNavigate();
     const goToDetail = () => {
-        navigate(`/proudct/${item.id}`)
+        navigate(`./product/${item.id}`)
     }
 
     return (
@@ -21,7 +21,7 @@ const ProductItem = ({item}) => {
             <div className="item-price">{item.price}원</div>
             <button className='add-cart-btn' onClick={()=>dispatch(addCart(item))}>
                 <i className="fas fa-plus"></i>
-                장바구니에 담기
+                장바구니에 추가하기
             </button>
 
         </div>

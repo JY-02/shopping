@@ -9,7 +9,7 @@ const cartSlice  = createSlice({
         addCart : (state,action) => {
             const equalItem = state.findIndex(item => item.id === action.payload.id);
             if(equalItem >=0 ){
-                alert ('장바구니에 동일한 상품이 있습니다.')
+                alert ('동일한 상품을 이미 담았습니다.')
             }else{
                 state = state.push(action.payload) ;
              }
