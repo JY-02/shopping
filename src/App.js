@@ -17,6 +17,11 @@ function App() {
         <Route path="/proudct/:id" element={<UserRedirects />} />
       </Routes>
       </BrowserRouter>
+      <footer className='foot'>
+        <p>
+          성결대학교 컴퓨터공학과 20210863
+        </p>
+      </footer>
     </div>
   );
 }

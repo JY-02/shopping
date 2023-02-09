@@ -55,6 +55,13 @@
         "price": 11000,
         "product_img": "https://media.istockphoto.com/id/1156023976/ko/%EC%82%AC%EC%A7%84/%EB%8F%88%EC%B9%B4%EC%93%B0-%EC%8B%9C.jpg?s=1024x1024&w=is&k=20&c=dLZOvaXMbkBSq8K0TJtLqSESmVrSut_bryKjgicELe8=",
         "is_checked": "false"
+      },
+      {
+        "id": 8,
+        "product_name": "스테이크",
+        "price": 60000,
+        "product_img": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "is_checked": "false"
       }
     ]
   }
