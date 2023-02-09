@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.logincover{
+    margin: 0 auto; 
+    position:absolute;
+    left:45%;
+}
+.logintitle{
+    font-family: 'Jua', sans-serif;
+    font-size:40px;
+}
+#loginBtn{
+    width: 100px;
+    height:30px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    background-color: rgb(50, 206, 193);
+}
+.userId{
+    margin-top:90px;
+    font-family: 'Jua', sans-serif;
+    font-size:24px;
+}
+.userPw{
+    margin-top:40px;
+    margin-bottom:60px;
+    font-family: 'Jua', sans-serif;
+    font-size:24px;
+}
+#userId{
+    height:20px;
+}
+#userPass{
+    height:20px;
+}

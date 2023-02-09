@@ -5,15 +5,14 @@
     height: 80px;
     margin-bottom: 50px;
     padding: 0 150px;
-    background-color: rgb(170, 76, 39);
-    color: #fff;
+    background-color: #0DE3DA;
+    color: #111;
     font-size: 20px;
     font-weight: 700;
 }
-
 .nav-title {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 32px;
   }
 
 .fas{
@@ -28,8 +27,8 @@
     width: 20px;
     height: 20px;
     border-radius:5px;
-    background-color: rgb(255, 163, 132);
-    color: #fff;
+    background-color: #0EFAEA;
+    color: #FFF;
     font-size: 1;
     font-weight: normal;
     display:flex;

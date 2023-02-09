@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 .cart-list{
     width: 960px;
     margin: auto;
 }
+.cart-emty{
+    font-family: 'Jua', sans-serif;
+    font-size:20px;
+    font-weight: 10;
+    text-align: center;
+}
 
 .cart-list-title{
     padding: 5px 0;
-    border-bottom: 2px solid rgb(122, 17, 17);
-    margin-bottom: 40px;
+    font-family: 'Jua', sans-serif;
+    font-size:32px;
+    border-bottom: 2px solid grey;
+    padding-bottom:50px;
+    margin-bottom: 30px;
     text-align: center;
 }

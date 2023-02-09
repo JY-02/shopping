@@ -15,7 +15,12 @@ const Nav = () => {
     }
     return (   
         <nav className="nav">
-            <h1><Link to='/'>SHOP</Link></h1>
+            
+            <div>
+                <Link to='/'>
+                    <p className='nav-title'>FOOD COLLECTOR</p>
+                </Link>
+            </div>
             <div className='search-box'>
                 <input type="text" placeholder='상품 찾기'  onKeyUp={onSearch} />
             </div>

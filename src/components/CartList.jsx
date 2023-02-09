@@ -9,7 +9,7 @@ const CartList = () => {
   
     return (
         <div className='cart-list'>
-             <h2 className="cart-list-title">장바구니</h2>
+             <p className="cart-list-title">장바구니</p>
              {cartItem}
         </div>
     );

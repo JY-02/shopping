@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { login } from '../store/user/userSlice';
+import './Login.css';
 
 const Login = () => {
     const navigator = useNavigate();
@@ -13,18 +14,20 @@ const Login = () => {
         navigator('/')
     }
     return (
-        <div>
+        <div className='logincover'>
+            <p className='logintitle'>Login</p>
             <form onSubmit={(e)=>loginUser(e)}>
                 <div className='userId'>
                     <div><label htmlFor='userId'>아이디</label></div>
-                    <div><input type="text" id="userId"  placeholder='아이디 입력' /></div>
+                    <div><input type="text" id="userId"  placeholder=''/></div>
                 </div>
                 <div className='userPw'>
                      <div><label htmlFor='userPass'>비밀번호</label></div>
-                    <div><input type="password" id="userPass"  placeholder='비밀번호 입력' /></div>
+                    <div><input type="password" id="userPass" placeholder=''/></div>
                 </div>
-                <div className='loginBtn'>
-                     <input type="submit" value="로그인"  />
+                <div>
+                    <input id="loginBtn"type="submit" value="Continue">
+                    </input>
                  </div>
             </form>
         </div>

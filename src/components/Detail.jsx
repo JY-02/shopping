@@ -7,7 +7,7 @@ const Detail = () => {
     return (
         <div>
             <h2>상품상세페이지</h2>
-            <h3>제품 아이디 : {params.id}</h3>
+            <h3>제품 아이디  {params.id}</h3>
         </div>
     );
 };
