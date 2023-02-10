@@ -23,7 +23,7 @@ const Login = () => {
                 <div className='userPw'>
                     <div><input type="password" id="userPass" placeholder='PASSWORD'/></div>
                 </div>
-                <div>
+                <div className='lgn-box'>
                     <input id="loginBtn"type="submit" value="Continue">
                     </input>
                  </div>
