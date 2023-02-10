@@ -18,12 +18,10 @@ const Login = () => {
             <p className='logintitle'>Login</p>
             <form onSubmit={(e)=>loginUser(e)}>
                 <div className='userId'>
-                    <div><label htmlFor='userId'>아이디</label></div>
-                    <div><input type="text" id="userId"  placeholder=''/></div>
+                    <div><input type="text" id="userId"  placeholder='ID'/></div>
                 </div>
                 <div className='userPw'>
-                     <div><label htmlFor='userPass'>비밀번호</label></div>
-                    <div><input type="password" id="userPass" placeholder=''/></div>
+                    <div><input type="password" id="userPass" placeholder='PASSWORD'/></div>
                 </div>
                 <div>
                     <input id="loginBtn"type="submit" value="Continue">

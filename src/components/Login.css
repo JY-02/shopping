@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+input::-ms-input-placeholder { color: #000; }
+input::-webkit-input-placeholder { color: #000; }
+input::-moz-placeholder { color: #000; }
 .logincover{
     margin: 0 auto; 
     position:absolute;
-    left:45%;
+    left:47%;
 }
 .logintitle{
     font-family: 'Jua', sans-serif;
@@ -15,22 +18,35 @@
     font-weight: bold;
     border:none;
     border-radius:5px;
-    background-color: rgb(50, 206, 193);
+    background-color: rgba(59, 163, 155, 0.845);
 }
+
 .userId{
-    margin-top:90px;
-    font-family: 'Jua', sans-serif;
-    font-size:24px;
+    position:relative;
+    left:-40%;
 }
+
 .userPw{
-    margin-top:40px;
-    margin-bottom:60px;
-    font-family: 'Jua', sans-serif;
-    font-size:24px;
+    position: relative;
+    left:-40%;
 }
+
 #userId{
-    height:20px;
+    height:40px;
+    width:500px;
+    margin-top:80px;
+    border:none;
+    background-color:#4be1d4;
+    text-align: center;
+    font-size: 16px;
 }
 #userPass{
-    height:20px;
+    height:40px;
+    width:500px;
+    margin-top:70px;
+    margin-bottom:120px;
+    border:none;
+    background-color: #4be1d4;
+    text-align: center;
+    font-size: 16px;
 }

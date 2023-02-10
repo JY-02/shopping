@@ -33,7 +33,7 @@ const ProductList= () => {
                  </div>
                  ) :
                 (
-                 <h2>일치하는 상품 없음</h2>
+                 <p className='noitem'>일치하는 상품 없음</p>
                 )
              }
              

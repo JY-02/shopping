@@ -2,6 +2,8 @@
 a{text-decoration: none;color:inherit;}
 .foot{
     color:grey;
+    position:absolute;
+    left:41.5%;
+    top:190%;
     text-align: center;
-    padding-bottom:25px;
 }
