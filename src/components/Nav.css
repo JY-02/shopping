@@ -4,17 +4,28 @@
     align-items: center;
     height: 80px;
     margin-bottom: 50px;
-    padding: 0 150px;
+    padding: 0 10vw;
     background-color: #0DE3DA;
     color: #111;
     font-size: 20px;
     font-weight: 700;
     box-shadow: 15px 0px 25px #555;
 }
+.navTitleBox{
+    flex:0 1 25%;
+    display: flex;
+    justify-content: start;
+}
+.cartBox{
+    flex:0 1 25%;
+    display: flex;
+    justify-content: end;
+}
 .nav-title {
     cursor: pointer;
     font-size: 32px;
     text-shadow: 5px 5px 5px #34beb5;
+    
   }
 
 .fas{
@@ -26,19 +37,21 @@
     position: absolute;
     top: -10px;
     right: -10px;
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     border-radius:5px;
     background-color: #0EFAEA;
     color: #FFF;
-    font-size: 1;
+    font-size: 10px;
     font-weight: normal;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 .search-box{ 
-    flex:0 1 50%
+    flex:0 1 50%;
+    display: flex;
+    justify-content: center;
 }
 .search-box input[type="text"]{
     width: 100%;
@@ -48,4 +61,12 @@
     font-size:16px;
     font-family: '한컴 백제 M';
     font-weight: 600;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:960px) {
+    .nav-title {font-size: 14px;}
+    .fas{font-size: 12px;margin-right: 4px;}
+    .user{font-size: 12px;}
+    .nav{ padding: 0 4vw;}
 }

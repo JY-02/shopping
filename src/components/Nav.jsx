@@ -16,7 +16,7 @@ const Nav = () => {
     return (   
         <nav className="nav">
             
-            <div>
+            <div className='navTitleBox'>
                 <Link to='/'>
                     <p className='nav-title'>FOOD COLLECTOR</p>
                 </Link>
@@ -24,7 +24,7 @@ const Nav = () => {
             <div className='search-box'>
                 <input type="text" placeholder='상품 찾기'  onKeyUp={onSearch} />
             </div>
-            <div>
+            <div className='cartBox'>
                 <span>
                     <Link to='/cart'>
                     <i className="fas fa-shopping-cart">
@@ -32,7 +32,7 @@ const Nav = () => {
                     </i>
                     </Link>
                 </span>
-                <span className="user">
+                <span className="userBox">
                     {
                         user ? 
                         <span className="user" onClick={()=>{dispatch(logout(false))}}>로그아웃</span> :

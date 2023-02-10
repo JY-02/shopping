@@ -4,8 +4,7 @@ input::-webkit-input-placeholder { color: #000; }
 input::-moz-placeholder { color: #000; }
 .logincover{
     margin: 0 auto; 
-    position:absolute;
-    left:47%;
+    width: 60vw;
 }
 .logintitle{
     font-family: 'Jua', sans-serif;
@@ -21,19 +20,9 @@ input::-moz-placeholder { color: #000; }
     background-color: rgba(59, 163, 155, 0.845);
 }
 
-.userId{
-    position:relative;
-    left:-40%;
-}
-
-.userPw{
-    position: relative;
-    left:-40%;
-}
-
 #userId{
     height:40px;
-    width:500px;
+    width:100%;
     margin-top:80px;
     border:none;
     background-color:#4be1d4;
@@ -42,7 +31,7 @@ input::-moz-placeholder { color: #000; }
 }
 #userPass{
     height:40px;
-    width:500px;
+    width:100%;
     margin-top:70px;
     margin-bottom:120px;
     border:none;
